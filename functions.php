@@ -92,3 +92,7 @@ function understrap_child_customize_controls_js() {
 	);
 }
 add_action( 'customize_controls_enqueue_scripts', 'understrap_child_customize_controls_js' );
+
+// Custom Image Sizes
+
+add_image_size('column-image', 1000, 750);
